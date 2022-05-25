@@ -1,0 +1,36 @@
+--JDBC: Mapping data to POJOs
+
+--Prerequisites:
+
+Customers table with example data
+
+TODO: add customers create table sql script with example data dump
+
+Theory:
+
+POJO files
+
+JDBC Result Sets
+
+Lombok
+
+Practical tasks:
+
+Retrieve data from database and map/convert it to a java object
+
+Description: Create a Customer POJO class using Lombok with all customer table properties, 
+execute a SQL query and retrieve a single customer object from the database.
+
+Acceptance criteria:
+
+As a QA Automation trainee, I want to gain knowledge of:
+
+how to create POJO classes 
+
+how to retrieve data from a database and map it to POJO classes 
+
+how to handle name mismatch between the POJO variables and the table column names
+
+what is a JDBC result set
+
+how to simplify my code and produce code faster using Lombok
