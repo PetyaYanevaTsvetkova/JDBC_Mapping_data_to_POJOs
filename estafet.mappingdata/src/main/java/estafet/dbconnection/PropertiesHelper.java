@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesHelper {
+    /**
+     * Retrieves properties from the properties file
+     */
     private static final String FILE_PATH = "src/main/resources/config.properties";
 
     private final String url;

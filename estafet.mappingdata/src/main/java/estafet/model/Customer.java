@@ -10,7 +10,14 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-public class Customer implements Serializable{
+public class Customer implements Serializable {
+    /**
+     * Class of type POJO using Annotations.
+     * 'Column' annotations are with 'name' value same as that of SQL column
+     * The fields are with same type as that of SQL column
+     * The annotation 'Entity' is required to mark the class capable of hold database values
+     */
+
     @Id
     private Long customer_id;
     @Column(name = "name")

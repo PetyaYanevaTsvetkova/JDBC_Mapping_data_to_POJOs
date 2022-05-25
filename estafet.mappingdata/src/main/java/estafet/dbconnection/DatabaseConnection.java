@@ -6,6 +6,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
+    /**
+     * Creates instance of Database Connection through Singleton design pattern
+     */
+
     private static final String FILE_PATH = "src/main/resources/config.properties";
 
     private static DatabaseConnection instance;
