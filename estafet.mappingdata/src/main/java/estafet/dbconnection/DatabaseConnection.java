@@ -5,11 +5,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * Creates instance of Database Connection through Singleton Design Pattern
+ */
 public class DatabaseConnection {
-    /**
-     * Creates instance of Database Connection through Singleton design pattern
-     */
-
     private static final String FILE_PATH = "src/main/resources/config.properties";
 
     private static DatabaseConnection instance;

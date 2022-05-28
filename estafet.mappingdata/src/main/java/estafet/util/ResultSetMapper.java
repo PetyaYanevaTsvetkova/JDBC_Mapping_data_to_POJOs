@@ -14,6 +14,9 @@ import javax.persistence.Entity;
 import estafet.model.Customer;
 import org.apache.commons.beanutils.BeanUtils;
 
+/**
+ The class provides a method, that maps resultSet to an ArrayList of type POJO using Annotations.
+*/
 public class ResultSetMapper<T> {
     @SuppressWarnings("unchecked")
     /**
@@ -25,7 +28,6 @@ public class ResultSetMapper<T> {
      * @param outputClass -  Annotated POJO (Plain Old Java Object) class
      * @return - ArrayList containing POJOs retrieved from DataBase
      */
-
     public List<T> mapResultSetToObject(ResultSet rs, Class outputClass) {
         List<T> outputList = null;
         try {
